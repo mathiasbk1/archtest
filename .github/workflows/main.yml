@@ -1,0 +1,21 @@
+name: Test Archlens action
+on:
+  - pull_request
+
+permissions: write-all
+
+jobs:
+  render-diff-and-upload-comment:
+    runs-on: ubuntu-latest
+    permissions:
+      pull-requests: write
+
+    steps:
+      - uses: actions/checkout@v3
+
+      - id: run_archlens
+        uses: archlens/render-diff-on-pr@main
+        with:
+          config-path: "archlens.json"
+          render-diff: "true"
+          BRANCH_NAME: "archlens_${{github.event.pull_request.number}}"
