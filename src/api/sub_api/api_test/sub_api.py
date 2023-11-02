@@ -1,6 +1,6 @@
 
 
-import tp_src.api
+import src.api
 
 
 def lol():
