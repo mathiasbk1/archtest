@@ -1,7 +1,7 @@
 {
     "$schema": "https://raw.githubusercontent.com/Perlten/Architectural-Lens/master/config.schema.json",
     "name": "archlens_test",
-    "rootFolder": "tp_src",
+    "rootFolder": "src",
     "github": {
         "url": "https://github.com/mathiasbk1/archtest",
         "branch": "main"
