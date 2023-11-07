@@ -9,13 +9,15 @@
   "saveLocation": "./diagrams/",
   "views": {
     "completeView": {
-      "packages": [],
+      "packages": [
+        
+      ],
       "ignorePackages": []
     },
     "apiView": {
       "packages": [
         {
-          "path": "*",
+          "path": "./*",
           "depth": 0
         }
       ],
@@ -28,7 +30,7 @@
           "depth": 1
         }
       ],
-      "ignorePackages": ["*test*"]
+      "ignorePackages": []
     }
   }
 }
