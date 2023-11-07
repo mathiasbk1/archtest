@@ -2,7 +2,6 @@ name: Test Archlens action
 on:
   - pull_request
 
-
 jobs:
   render-diff-and-upload-comment:
     permissions: write-all
@@ -15,4 +14,4 @@ jobs:
         with:
           config-path: "archlens.json"
           render-diff: "true"
-          BRANCH_NAME: "archlens_${{github.event.pull_request.number}}"
+          BRANCH_NAME: "_${{github.event.pull_request.number}}"
