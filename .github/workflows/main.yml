@@ -2,14 +2,11 @@ name: Test Archlens action
 on:
   - pull_request
 
-permissions: write-all
 
 jobs:
   render-diff-and-upload-comment:
+    permissions: write-all
     runs-on: ubuntu-latest
-    permissions:
-      pull-requests: write
-
     steps:
       - uses: actions/checkout@v3
 
