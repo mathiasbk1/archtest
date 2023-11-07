@@ -1,7 +1,6 @@
 
 
-import src.api
-
+from src.controller import controller
 
 def lol():
     print("yo")
