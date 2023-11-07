@@ -12,6 +12,15 @@
     "completeView": {
       "packages": [],
       "ignorePackages": []
+    },
+    "apiView": {
+        "packages": [
+            {
+                "path": "api",
+                "depth": 2
+            }
+        ],
+        "ignorePackages": []
     }
   }
 }
