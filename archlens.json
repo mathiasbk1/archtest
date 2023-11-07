@@ -1,35 +1,16 @@
 {
   "$schema": "https://raw.githubusercontent.com/archlens/ArchLens/master/config.schema.json",
-  "name": "archlens_test",
+  "name": "archtest",
   "rootFolder": "src",
   "github": {
     "url": "https://github.com/mathiasbk1/archtest",
-    "branch": "main"
+    "branch": "pr-test-action"
   },
   "saveLocation": "./diagrams/",
+  "showDependencyCount": true,
   "views": {
     "completeView": {
-      "packages": [
-        
-      ],
-      "ignorePackages": []
-    },
-    "apiView": {
-      "packages": [
-        {
-          "path": "./*",
-          "depth": 0
-        }
-      ],
-      "ignorePackages": []
-    },
-    "apiViewDepth": {
-      "packages": [
-        {
-          "path": "api",
-          "depth": 1
-        }
-      ],
+      "packages": [],
       "ignorePackages": []
     }
   }
